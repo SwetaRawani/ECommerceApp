@@ -1,0 +1,18 @@
+.addProducts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addProducts form{
+    display: grid;
+    grid-template-columns: 100px 200px;
+    margin: 80px;
+    gap: 20px;
+    box-shadow: 0 10px 30px wheat;
+    padding: 30px;
+}
+.addProducts form input {
+    border: none;
+    border-bottom: 1px solid black;
+}
